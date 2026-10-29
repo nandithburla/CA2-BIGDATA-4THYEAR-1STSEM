@@ -1,0 +1,4 @@
+target/
+jar/*.jar
+output/
+logs/

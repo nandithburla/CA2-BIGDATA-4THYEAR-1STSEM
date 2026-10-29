@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>edu.csd401.ca2</groupId>
+    <artifactId>ca2-bigdata-parent</artifactId>
+    <version>1.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <artifactId>q2_inverted_index</artifactId>
+  <packaging>jar</packaging>
+  <name>CA2 Question 2 (q2_inverted_index)</name>
+
+  <build>
+    <!-- Java sources live directly in src/ (package ca2.q2) as required by the submission layout -->
+    <sourceDirectory>src</sourceDirectory>
+    <finalName>q2_inverted_index</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
